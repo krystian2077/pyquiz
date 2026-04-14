@@ -1,0 +1,35 @@
+{
+  "module": {
+    "number": 1,
+    "title": "Podstawy Pythona"
+  },
+  "lesson": {
+    "number": 1,
+    "title": "Zmienne i typy danych",
+    "summary": "Lekcja o podstawowych typach w Pythonie: int, float, str, bool."
+  },
+  "questions": [
+    {
+      "type": "MCQ",
+      "difficulty": "easy",
+      "question_text": "Który z poniższych typów danych w Pythonie jest niemutowalny?",
+      "explanation": "Stringi (str) w Pythonie są niemutowalne, co oznacza, że po utworzeniu nie można ich zmienić.",
+      "topic_tags": ["podstawy", "stringi"],
+      "multi_correct": false,
+      "choices": [
+        {"label": "a", "text": "list", "is_correct": false},
+        {"label": "b", "text": "dict", "is_correct": false},
+        {"label": "c", "text": "str", "is_correct": true},
+        {"label": "d", "text": "set", "is_correct": false}
+      ]
+    },
+    {
+      "type": "OPEN",
+      "difficulty": "medium",
+      "question_text": "Wyjaśnij różnicę między listą a krotką (tuple).",
+      "correct_answer": "Lista jest mutowalna (można ją zmieniać), krotka jest niemutowalna.",
+      "explanation": "Listy definiujemy w [], krotki w ().",
+      "topic_tags": ["kolekcje"]
+    }
+  ]
+}
